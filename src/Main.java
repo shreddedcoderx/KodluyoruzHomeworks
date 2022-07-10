@@ -2,13 +2,15 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-    int year = 2018;
-
-    do {
-        System.out.println("while döngüsüne girilmeden do döngüsüne girildi.");
-        year++;
-    } while (year<2020);
-
-
+        int i=1, j=1;
+        while(i<3)
+        {
+            do
+            {
+                System.out.print(j + ",");
+                j++;
+            }while(j<4);
+            i++;
+        }
     }
 }
